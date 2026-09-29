@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Full Stake</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="mydiv">
+<p>Here is a message: bro</p>
+<p> My name is Manu and I am age years 23 years old.</p>
+</div>
+<script type="text/javascript">
+    const { createApp } = Vue;
+    createApp({
+        data() {
+            return {
+                bro: 'Hello, World!'
+            }
+        }
+    }).myApp.mount('#mydiv');
+</script>
+
+</body>
+</html>
